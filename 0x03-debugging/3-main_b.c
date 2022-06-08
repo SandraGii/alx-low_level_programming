@@ -18,7 +18,7 @@ day = 29;
 year = 2020;
 printf("Date: %02d/%02d/%04d\n", month, day, year);
 day = convert_day(month, day);
-printf("day :%d\n",day );
+printf("day :%d\n", day);
 print_remaining_days(month, day, year);
 return (0);
 }
